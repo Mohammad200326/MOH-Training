@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --typing-white: #ffffff;
+    --blue: #1D9BF0;
+    --gray: #4E5356;
+}
+body {
+    background: var(--background, #FAFAFA);
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2';
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header .head .id .text span {
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.searchInput {
+    color: #4E5356;
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 65px;
+    padding-right: 45px;
+}
+.searchButton {
+    z-index: 1000;
+}
+.icons button {
+    border: var(--blue);
+    background-color: var(--blue);
+}
+.icons button span {
+    top: 50px;
+    font-family: 'Baloo Bhaijaan 2';
+    width: 15px;
+    height: 15px;
+    top: -5px !important;
+    right: -8px;
+}
+.active {
+    color: #0F1419 !important;
+    background-color: transparent !important;
+}
